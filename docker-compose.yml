@@ -5,10 +5,10 @@ services:
       context: .
     restart: always
     environment:
-      - NOTION_TOKEN=${secret_Uu4OAXI0NTaHdKd5DCG7Viy0JZqB0nWrWprY7b8tjP7}
-      - NOTION_TASK_DB=${482c14d8452140bba4a6b9909f248376}
-      - TELEGRAM_BOT_TOKEN=${6006512282:AAFt7leGVNfvtpKADfow8PvBqTMnoX_ZY-0}
-      - TELEGRAM_OWNER_ID=${NewAlexP}
+      - NOTION_TOKEN=${}
+      - NOTION_TASK_DB=${}
+      - TELEGRAM_BOT_TOKEN=${}
+      - TELEGRAM_OWNER_ID=${}
       - TELEGRAM_ALLOW_IDS=${TELEGRAM_ALLOW_IDS}
 networks:
   reverse-proxy:
